@@ -9,7 +9,7 @@ import { Observable, catchError, map, of } from 'rxjs';
 export class CarrosServices{
 
   //http://localhost:18080/carros-crud/rs/carros/list
-  private baseUrl: string = 'http://10.128.0.4:8080/carros-crud/rs/carros';
+  private baseUrl: string = 'http://34.121.182.67:8080/carros-crud/rs/carros';
 
   constructor(private http: HttpClient) { }
 
